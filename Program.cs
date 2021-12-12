@@ -62,7 +62,7 @@ namespace asciiAG
                 Most text editors will vertically stretch the text, so I am deliberately horizontally stretching
                 it beforehand to retain the correct aspect ratio.
             */
-            Bitmap bmp = new Bitmap(original, new Size((int)Math.Round(original.Width / 1.5), (int)Math.Round(original.Height / 3.0)));
+            Bitmap bmp = new Bitmap(original, new Size((int)Math.Round(original.Width / 1.6), (int)Math.Round(original.Height / 2.5)));
             for (int y = 0; y < bmp.Height; y++)
             {
                 for (int x = 0; x < bmp.Width; x++)

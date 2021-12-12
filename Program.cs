@@ -80,7 +80,7 @@ namespace asciiAG
             string[] asciiChars =
             {
                 " ", ".", "'", "`", "^", "\"", ",", ":", ";", "I", "l", "!", "i",
-                ">", "<", "~", "+", "_", "-", "?", "]", "[", "}", "{", "1", ")",
+                ">", "<", "~", "+", "?", "]", "[", "}", "{", "1", ")",
                 "(", "|", "\\", "/", "t", "f", "j", "r", "x", "n", "u", "v", "c",
                 "z", "X", "Y", "U", "J", "C", "L", "Q", "0", "O", "Z", "m", "w",
                 "q", "p", "d", "b", "k", "h", "a", "o", "*", "#", "M", "W", "&",
@@ -88,7 +88,7 @@ namespace asciiAG
             };
             Array.Reverse(asciiChars); // Lower luminance values will use darker characters, for black text on white background editors.
             var charIndex = (int)Math.Floor(
-                (0.2126 * pixelColour.R + 0.7152 * pixelColour.G + 0.0722 * pixelColour.B) / 3.6
+                (0.2126 * pixelColour.R + 0.7152 * pixelColour.G + 0.0722 * pixelColour.B) / 3.7
             );
             if (charIndex > 0)
             {

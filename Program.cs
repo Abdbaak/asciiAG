@@ -70,7 +70,7 @@ namespace asciiAG
                     Color px = bmp.GetPixel(x, y);
                     output += LuminanceToChar(px);
                 }
-                output += "\n";     // Append newline character after each row of pixels is parsed.
+                output += "\n";
             }
             return output;
         }
@@ -80,7 +80,7 @@ namespace asciiAG
             string[] asciiChars =
             {
                 " ", ".", "'", "`", "^", "\"", ",", ":", ";", "I", "l", "!", "i",
-                ">", "<", "~", "+", "?", "]", "[", "}", "{", "1", ")",
+                "_", "-", ">", "<", "~", "+", "?", "]", "[", "}", "{", "1", ")",
                 "(", "|", "\\", "/", "t", "f", "j", "r", "x", "n", "u", "v", "c",
                 "z", "X", "Y", "U", "J", "C", "L", "Q", "0", "O", "Z", "m", "w",
                 "q", "p", "d", "b", "k", "h", "a", "o", "*", "#", "M", "W", "&",

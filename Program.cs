@@ -70,7 +70,7 @@ namespace asciiAG
                     Color px = bmp.GetPixel(x, y);
                     output += LuminanceToChar(px);
                 }
-                output += "\n";
+                output += "\n";     // Append newline character after each row of pixels is parsed.
             }
             return output;
         }

@@ -1,8 +1,8 @@
 # asciiAG
 
 Converts images to ASCII art.
-Usage:  dotnet run "<path>"
-        dotnet run -w "<URL>"
+Usage:  dotnet run "path"
+        dotnet run -w "URL"
         
 Program supports .bmp, .gif, .jpg, .jpeg, .png, .tiff
 
